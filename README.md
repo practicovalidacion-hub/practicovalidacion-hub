@@ -10,11 +10,10 @@ Here are some ideas to get you started:
 - 📫 How to reach me: practicovalidacion@gmail.com
 
 ### :zap: Actividad reciente
-<!--RECENT_ACTIVITY:start-->
-
-
-<!--RECENT_ACTIVITY:last_update-->
-
+#<!--RECENT_ACTIVITY:start-->
+#<!--RECENT_ACTIVITY:last_update-->
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 :computer: 
 
