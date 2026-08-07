@@ -16,19 +16,15 @@ on:
 #│ │ │ │ ┌───── Day of week (0 - 6) (Sunday=0)
 #* */12 * * *
 
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Generate build and check code formatting
-
-
+    name: Update Profile README
 
     steps:
-      - uses: actions/checkout@v6
-      - name: Use Node 24
-        uses: actions/setup-node@v6
-        with:
-          node-version: 24
-      - run: npm ci 
-      - run: npm run format:check
-      - run: npm run build
+      - uses: actions/checkout@v2.3.4
+      
+      - uses: Readme-Workflows/recent-activity@v2.4.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
