@@ -11,12 +11,12 @@ Here are some ideas to get you started:
 
 :computer: Actividad reciente
 
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:end-->
+<!--RECENT_ACTIVITY:last_update-->
 
-<!-- se comenta el codigo asi en html -->
-<!--![Website](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fpracticovalidacion-hub) -->
-<!--https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fpracticovalidacion-hub%2Fpracticovalidacion-hub%2F -->
+<!--RECENT_ACTIVITY:last_update_end-->
+
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fpracticovalidacion-hub%2Fpracticovalidacion-hub%2F)
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/practicovalidacion-hub/practicovalidacion-hub)
