@@ -11,8 +11,8 @@ Here are some ideas to get you started:
 
 :computer: Actividad reciente
 
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:last_update-->
 
 <!-- se comenta el codigo asi en html -->
 <!--![Website](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fpracticovalidacion-hub) -->
