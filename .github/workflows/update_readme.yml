@@ -13,8 +13,8 @@ name: Actualizar Actividad Reciente
 
 on:
   schedule:
-    # Se ejecuta cada 4 horas
-    - cron: '0 */8 * * *'
+    # Se ejecuta cada 12 horas
+    - cron: '0 */12 * * *'
   workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions
 
 jobs:

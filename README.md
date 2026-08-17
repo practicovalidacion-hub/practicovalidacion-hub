@@ -9,13 +9,13 @@ Here are some ideas to get you started:
 - 💬 Ask me about Data Analysis and Data Modeling...
 - 📫 How to reach me: practicovalidacion@gmail.com
 
-### :zap: Actividad reciente
+:computer: Actividad reciente
 #<!--RECENT_ACTIVITY:start-->
 #<!--RECENT_ACTIVITY:last_update-->
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
-:computer: 
+ 
 
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fpracticovalidacion-hub)
 
