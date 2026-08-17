@@ -1,46 +1,18 @@
-#name: CI
-
-#on: [push, pull_request]
-
-#┌───────────── Minute (0 - 59)
-#│ ┌─────────── Hour (0 - 23)
-#│ │ ┌───────── Day of month (1 - 31)
-#│ │ │ ┌─────── Month (1 - 12)
-#│ │ │ │ ┌───── Day of week (0 - 6) (Sunday=0)
-#* */12 * * *
-
-name: Actualizar Actividad Reciente
+name: Update README
 
 on:
   schedule:
-    # Se ejecuta cada 12 horas
-    - cron: '0 */12 * * *'
-  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions
+    - cron: "* */12 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Update this repo's README with recent activity
+    name: Update Profile README
 
-    #steps:
-    #  - uses: actions/checkout@v4.2.2
-      
-    #  - uses: Readme-Workflows/recent-activity@v2.4.1
-    #    env:
-    #      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@5    #  v4.2.2
-      - uses: Readme-Workflows/recent-activity@v0.4.0  #main
+      - uses: actions/checkout@v2.3.4
+      
+      - uses: Readme-Workflows/recent-activity@v2.4.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #steps:
-    #  - uses: actions/checkout@v3
-      
-    #  - uses: jamesgeorge007/github-activity-readme@master
-    #    env:
-          #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #    with:
-          # LIMIT_TO: 5 # Opcional: Cuántos eventos mostrar (por defecto 5)
-          # MAX_LINES: 10 # Opcional
-          #COMMIT_NAME: 'github-actions[bot]'
-          #COMMIT_EMAIL: 'github-actions[bot]@users.noreply.github.com'
