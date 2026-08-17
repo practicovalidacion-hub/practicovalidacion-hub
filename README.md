@@ -10,15 +10,14 @@ Here are some ideas to get you started:
 - 📫 How to reach me: practicovalidacion@gmail.com
 
 :computer: Actividad reciente
-#<!--RECENT_ACTIVITY:start-->
-#<!--RECENT_ACTIVITY:last_update-->
+
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
- 
+<!-- se comenta el codigo asi en html -->
+<!--![Website](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fpracticovalidacion-hub) -->
+<!--https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fpracticovalidacion-hub%2Fpracticovalidacion-hub%2F -->
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fpracticovalidacion-hub%2Fpracticovalidacion-hub%2F)
 
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fpracticovalidacion-hub)
-
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/practicovalidacion-hub/practicovalidacion-hub)
-
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/practicovalidacion-hub/practicovalidacion-hub)
 -->
